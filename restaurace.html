@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurace | Hotel Zetocha Hevlín</title>
+    <meta name="description" content="Restaurace Hotel Zetocha – tradiční česká kuchyně, denní menu, salónky, hotelový bar a letní terasa. Otevřeno denně 11:00–22:00.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Hotel Zetocha</a>
+            <nav class="nav">
+                <a href="index.html">Domů</a>
+                <a href="ubytovani.html">Ubytování</a>
+                <a href="restaurace.html">Restaurace</a>
+                <a href="index.html#kontakt">Kontakt</a>
+            </nav>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="cs" aria-label="Čeština">CZ</button>
+                <button class="lang-btn" data-lang="de" aria-label="Deutsch">DE</button>
+                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Otevřít menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero hero--restaurant">
+            <div class="hero-bg">
+                <img src="img/restaurant.jpeg" alt="Restaurace Hotel Zetocha" class="hero-img">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Restaurace</h1>
+                <p class="hero-subtitle">Tradiční česká kuchyně a speciality v Hevlíně</p>
+                <a href="tel:+420515274233" class="btn btn-primary btn--with-icon">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    Rezervovat stůl
+                </a>
+            </div>
+        </section>
+
+        <!-- Restaurant Content -->
+        <section class="restaurant-page">
+            <div class="container">
+                <div class="restaurant-grid">
+                    <div class="restaurant-content">
+                        <h2 class="section-title">Restaurace & Bar</h2>
+                        <p class="restaurant-text">
+                            Stylová restaurace s 50 místy nabízí denní menu od 11:00 do vyprodání. 
+                            Tradiční česká kuchyně doplněná o speciality české i zahraniční kuchyně. 
+                            Bohatý výběr alkoholických i nealkoholických nápojů. Restaurace je vybavena bezbariérovým vstupem.
+                        </p>
+                        <h3 class="subsection-title">Kapacity</h3>
+                        <ul class="accommodation-list">
+                            <li>Restaurace: 50 míst</li>
+                            <li>Salónek č. 1: 25 míst</li>
+                            <li>Salónek č. 2: 25 míst</li>
+                            <li>Hotelový bar, herna: 70 míst</li>
+                            <li>Letní terasa: 30 míst</li>
+                        </ul>
+                        <div class="opening-hours">
+                            <div class="opening-hours-status" id="opening-status" aria-live="polite">
+                                <span class="status-dot"></span>
+                                <span class="status-text">Načítám…</span>
+                            </div>
+                            <h3 class="subsection-title">Otevírací doba</h3>
+                            <dl class="opening-hours-list">
+                                <dt>Pondělí</dt><dd>11:00 – 22:00</dd>
+                                <dt>Úterý</dt><dd>11:00 – 22:00</dd>
+                                <dt>Středa</dt><dd>11:00 – 22:00</dd>
+                                <dt>Čtvrtek</dt><dd>11:00 – 22:00</dd>
+                                <dt>Pátek</dt><dd>11:00 – 22:00</dd>
+                                <dt>Sobota</dt><dd>11:00 – 22:00</dd>
+                                <dt>Neděle</dt><dd>11:00 – 22:00</dd>
+                            </dl>
+                        </div>
+                        <a href="tel:+420515274233" class="btn btn-primary btn--with-icon">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            Rezervovat stůl
+                        </a>
+                    </div>
+                    <div class="restaurant-image">
+                        <img src="img/restaurant2.jpeg" alt="Interiér restaurace Hotel Zetocha">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery">
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/restaurant.jpeg" alt="Restaurace Hotel Zetocha">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/restaurant2.jpeg" alt="Interiér restaurace">
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="restaurant-cta">
+            <div class="container">
+                <p class="restaurant-cta-text">Připravujete firemní akci, oslavu nebo prezentaci? Nabízíme možnost pronájmu salónků.</p>
+                <a href="tel:+420515274233" class="btn btn-primary btn--with-icon">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Objednat salónek
+            </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© Hotel Zetocha • Hevlín 53, 671 69</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/opening-hours.js"></script>
+</body>
+</html>
