@@ -713,6 +713,15 @@ a {
     font-size: 0.9rem;
 }
 
+.footer p + p {
+    margin-top: 0.75rem;
+}
+
+.footer-disclaimer {
+    font-size: 0.8rem;
+    opacity: 0.85;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
     .logo img {
